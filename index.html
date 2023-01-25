@@ -12,9 +12,52 @@
 <body>
     <div class="container">
         <h1>BMI Calculator</h1>
-        <input type="number" min="0" placeholder="Height (cm)" name="" id="height">
-        <input type="number" min="0" placeholder="Weight (kg)" name="" id="weight">
+
+        <div class="height">
+            <div class="btnradio">
+                <div class="radios">
+                    <input type="radio" name="" id="">
+                    <label for="">Feet</label>
+                </div>
+                <div class="radios">
+                    <input type="radio" name="" id="">
+                    <label for="">cm</label>
+                </div>
+            </div>
+            
+            <div class="feet">
+                <input type="number" name="" id="" placeholder="Height (feet)">
+                <input type="number" name="" id="" placeholder="Height (inch)">
+            </div>
+
+            <div class="cm">
+                <input type="number" min="0" placeholder="Height (cm)" name="" id="height">
+            </div>
+        </div>
+
+        <div class="weight">
+            <div class="btnradio">
+                <div class="radios">
+                    <input type="radio" name="" id="">
+                    <label for="">Pounds</label>
+                </div>
+                <div class="radios">
+                    <input type="radio" name="" id="">
+                    <label for="">kg</label>
+                </div>
+            </div>
+
+            <div class="pounds">
+                <input type="number" name="" id="" placeholder="Weight (lbs)">
+            </div>
+
+            <div class="kg">
+                <input type="number" min="0" placeholder="Weight (kg)" name="" id="weight">
+            </div>
+        </div>
+
         <button id="btn">Check</button>
+
         <p id="output"></p>
         <p id="index"></p>
     </div>
